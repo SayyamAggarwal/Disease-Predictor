@@ -2,7 +2,7 @@ services:
   - name: disease-predictor
     type: web
     env: docker
-    repo: https://github.com/SamyakAnand/Disease-Predictor
+    repo: https://github.com/SayyamAggarwal/Disease-Predictor
     branch: main
     plan: free
     startCommand: "gunicorn app:app --bind 0.0.0.0:8080 --workers 4"

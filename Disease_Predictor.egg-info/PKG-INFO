@@ -1,8 +1,8 @@
 Metadata-Version: 2.4
 Name: Disease-Predictor
 Version: 0.0.1
-Author: Samyak Anand
-Author-email: samyak.g.anand@gmail.com
+Author: Sayyam Aggarwal
+Author-email: sayyamaggarwal2005@gmail.com
 Requires-Dist: python-dotenv
 Requires-Dist: pandas
 Requires-Dist: numpy

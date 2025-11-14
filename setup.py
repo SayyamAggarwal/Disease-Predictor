@@ -19,8 +19,8 @@ def get_requirements()->List[str]:
 setup(
     name="Disease Predictor",
     version='0.0.1',
-    author='Samyak Anand',
-    author_email='samyak.g.anand@gmail.com',
+    author='SayyamAggarwal',
+    author_email='sayyamaggarwal2005@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements()
 )
