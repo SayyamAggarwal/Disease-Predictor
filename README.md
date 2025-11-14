@@ -75,7 +75,7 @@ Each disease directory includes:
 ## 🚀 Quick Start (Local Development)
 
 ```bash
-git clone https://github.com/SamyakAnand/Disease-predictor.git
+git clone https://github.com/SayyamAggarwal/Disease-predictor.git
 cd disease-predictor
 pip install -r requirements.txt
 python healthapp/main.py
@@ -105,18 +105,6 @@ Access via browser at: `http://127.0.0.1:5000/`
 
 ---
 
-## 🗃️ Screenshots
-
-**🔹 Homepage**
-![Homepage](https://github.com/SamyakAnand/Disease-Predictor/blob/main/images/Home.png)
-
-**🔹 Prediction Form**
-![Form](https://github.com/SamyakAnand/Disease-Predictor/blob/main/images/Predictor.png)
-
-**🔹 Prediction Output**
-![Result](https://github.com/SamyakAnand/Disease-Predictor/blob/main/images/Result.png)
-
----
 
 ## 📈 Future Enhancements
 
@@ -130,10 +118,10 @@ Access via browser at: `http://127.0.0.1:5000/`
 
 ## 👨‍💻 Author
 
-**Samyak Anand**  
+**Sayyam Aggarwal**  
 Aspiring Data Scientist | Hyderabad, India  
-[🔗 LinkedIn](https://www.linkedin.com/in/SamyakAnand/)  
-[💻 GitHub](https://github.com/SamyakAnand)
+[🔗 LinkedIn](https://www.linkedin.com/in/sayyam-aggarwal-a00843277/)  
+[💻 GitHub](https://github.com/SayyamAggarwal)
 
 ---
 
