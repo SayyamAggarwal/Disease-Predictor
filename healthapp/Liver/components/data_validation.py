@@ -1,5 +1,5 @@
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 
 
 ## configuration of the Data Ingestion Config

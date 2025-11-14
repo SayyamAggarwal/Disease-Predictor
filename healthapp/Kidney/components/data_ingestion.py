@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import pymongo
 
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 from healthapp.Kidney.entity.config_entity import DataIngestionConfig
 from healthapp.Kidney.entity.artifact_entity import DataIngestionArtifact
 from healthapp.Kidney.utils.main_utils.utils import save_numpy_array_data, save_object

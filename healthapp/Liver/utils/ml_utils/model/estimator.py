@@ -1,6 +1,6 @@
 from healthapp.exception.exception import HealthAppException
 import os,sys
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 import numpy as np
 from healthapp.Liver.constant.training_pipeline import SAVED_MODEL_DIR,MODEL_FILE_NAME
 

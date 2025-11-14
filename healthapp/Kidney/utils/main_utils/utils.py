@@ -1,6 +1,6 @@
 import yaml
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 import os,sys
 import numpy as np
 #import dill

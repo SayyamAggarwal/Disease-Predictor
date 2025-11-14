@@ -1,5 +1,5 @@
 import sys
-from healthapp.logging import logger
+from healthapp.custom_logging import logger
 
 class HealthAppException(Exception):
     def __init__(self, error_message,error_details:sys):

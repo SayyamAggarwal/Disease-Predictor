@@ -10,7 +10,7 @@ from healthapp.Diabetes.entity.artifact_entity import (
     
 )
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 from healthapp.Diabetes.entity.config_entity import DataTransformationConfig,ModelTrainerConfig
 from healthapp.Diabetes.utils.main_utils.utils import (
     save_object,
@@ -33,7 +33,7 @@ from sklearn.ensemble import(
 )
 
 import dagshub
-dagshub.init(repo_owner='SamyakAnand', repo_name='Health-App', mlflow=True)
+dagshub.init(repo_owner='SayyamAggarwal', repo_name='Disease-Predictor', mlflow=True)
 
 
 class ModelTrainer:

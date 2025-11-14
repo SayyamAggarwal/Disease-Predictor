@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from healthapp.Diabetes.constant.training_pipeline import TARGET_COLUMN, DATA_TRANSFORMATION_IMPUTER_PARAMS
 from healthapp.Diabetes.entity.artifact_entity import DataTransformationArtifact, DataValidationArtifact
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 from healthapp.Diabetes.entity.config_entity import DataTransformationConfig
 from healthapp.Diabetes.utils.main_utils.utils import save_numpy_array_data, save_object
 

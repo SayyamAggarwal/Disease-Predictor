@@ -1,7 +1,7 @@
-Metadata-Version: 2.4
+Metadata-Version: 2.1
 Name: Disease-Predictor
 Version: 0.0.1
-Author: Sayyam Aggarwal
+Author: SayyamAggarwal
 Author-email: sayyamaggarwal2005@gmail.com
 Requires-Dist: python-dotenv
 Requires-Dist: pandas
@@ -17,6 +17,3 @@ Requires-Dist: flask
 Requires-Dist: flask-cors
 Requires-Dist: waitress
 Requires-Dist: python-multipart
-Dynamic: author
-Dynamic: author-email
-Dynamic: requires-dist

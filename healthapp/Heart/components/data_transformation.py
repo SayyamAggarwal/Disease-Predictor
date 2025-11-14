@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from healthapp.Heart.constant.training_pipeline import TARGET_COLUMN, DATA_TRANSFORMATION_IMPUTER_PARAMS
 from healthapp.Heart.entity.artifact_entity import DataTransformationArtifact, DataValidationArtifact
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 from healthapp.Heart.entity.config_entity import DataTransformationConfig
 from healthapp.Heart.utils.main_utils.utils import save_numpy_array_data, save_object
 

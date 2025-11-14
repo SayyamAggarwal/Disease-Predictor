@@ -1,6 +1,6 @@
 from healthapp.Heart.entity.artifact_entity import ClassificationMetricArtifact
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 import sys
 from sklearn.metrics import f1_score,precision_score,recall_score
 

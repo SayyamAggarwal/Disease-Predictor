@@ -9,7 +9,7 @@ from healthapp.Liver.entity.artifact_entity import (
     ModelTrainerArtifact
 )
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 from healthapp.Liver.entity.config_entity import DataTransformationConfig, ModelTrainerConfig
 from healthapp.Liver.utils.main_utils.utils import (
     save_object,
@@ -29,7 +29,7 @@ from sklearn.ensemble import (
 )
 from healthapp.Liver.utils.ml_utils.model.estimator import HealthModel
 import dagshub
-dagshub.init(repo_owner='SamyakAnand', repo_name='Health-App', mlflow=True)
+dagshub.init(repo_owner='SayyamAggarwal', repo_name='Health-App', mlflow=True)
 
 class ModelTrainer:
     def __init__(self, model_trainer_config: ModelTrainerConfig, data_transformation_artifact: DataTransformationArtifact):

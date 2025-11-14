@@ -3,7 +3,7 @@ from healthapp.Cancer.components.data_validation import DataValidation
 from healthapp.Cancer.components.data_transformation import DataTransformation
 from healthapp.Cancer.components.model_trainer import ModelTrainer
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 import sys
 from healthapp.Cancer.entity.config_entity import DataIngestionConfig,TrainingPipelineConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig
 if __name__=='__main__':

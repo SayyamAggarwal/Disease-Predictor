@@ -12,7 +12,7 @@ import numpy as np
 import pymongo
 from pymongo import MongoClient
 from healthapp.exception.exception import HealthAppException
-from healthapp.logging.logger import logging
+from healthapp.custom_logging.logger import logging
 
 class HealthDataExtract:
     def __init__(self):

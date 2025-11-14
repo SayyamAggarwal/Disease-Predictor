@@ -1,0 +1,10 @@
+[2025-11-15 00:11:42,637] 160 numexpr.utils -INFO -NumExpr defaulting to 8 threads.
+[2025-11-15 00:11:57,497] 74 dagshub.auth.tokens -INFO -Removed expired tokens from the token cache
+[2025-11-15 00:12:09,307] 1026 httpx -INFO -HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2025-11-15 00:12:10,841] 1026 httpx -INFO -HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2025-11-15 00:12:12,288] 1026 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-15 00:12:12,293] 107 dagshub -INFO -Accessing as SayyamAggarwal
+[2025-11-15 00:12:13,731] 1026 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/SamyakAnand/Health-App "HTTP/1.1 200 OK"
+[2025-11-15 00:12:16,035] 1026 httpx -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-15 00:12:16,038] 107 dagshub -INFO -Initialized MLflow to track repo "SamyakAnand/Health-App"
+[2025-11-15 00:12:16,040] 107 dagshub -INFO -Repository SamyakAnand/Health-App initialized!
